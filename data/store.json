@@ -1,6 +1,192 @@
 {
-  "products": {},
+  "products": {
+    "سالاد-سزار": {
+      "name": "سالاد سزار",
+      "category": "سالاد ها",
+      "desc": "",
+      "price": 380000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 0
+    },
+    "سالاد-ماکارونی": {
+      "name": "سالاد ماکارونی",
+      "category": "سالاد ها",
+      "desc": "",
+      "price": 230000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 1
+    },
+    "سالاد-فصل": {
+      "name": "سالاد فصل",
+      "category": "سالاد ها",
+      "desc": "",
+      "price": 200000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 2
+    },
+    "سوسیس-سیب-زمینی": {
+      "name": "سوسیس سیب زمینی",
+      "category": "ساندویچ ها",
+      "desc": "هات‌داگ,سیب‌زمینی و مخلفات",
+      "price": 230000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 0
+    },
+    "جگر-مرغ": {
+      "name": "جگر مرغ",
+      "category": "ساندویچ ها",
+      "desc": "جگر‌مرغ،پیاز و مخلفات",
+      "price": 250000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 1
+    },
+    "کتلت-گوشت": {
+      "name": "کتلت گوشت",
+      "category": "ساندویچ ها",
+      "desc": "کتلت‌گوشت و مخلفات",
+      "price": 260000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 2
+    },
+    "هات-داگ": {
+      "name": "هات داگ",
+      "category": "ساندویچ ها",
+      "desc": "هات‌داگ و مخلفات",
+      "price": 270000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 3
+    },
+    "چرخکرده-با-سیبزمینی": {
+      "name": "چرخ‌کرده با سیب‌زمینی",
+      "category": "ساندویچ ها",
+      "desc": "چرخ‌کرده،سیب‌زمینی و مخلفات",
+      "price": 270000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 4
+    },
+    "مرغ": {
+      "name": "مرغ",
+      "category": "ساندویچ ها",
+      "desc": "سینه‌مرغ‌ریش‌ریش،پنیر و مخلفات",
+      "price": 255000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 5
+    },
+    "مغز-و-زبان": {
+      "name": "مغز و زبان",
+      "category": "ساندویچ ها",
+      "desc": "مغز و زبان و مخلفات",
+      "price": 400000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 6
+    },
+    "پیتزا-مخصوص-بهرام": {
+      "name": "پیتزا مخصوص بهرام",
+      "category": "پیتزا ها",
+      "desc": "ژامبون،سوسیس،پپرونی،فلفل‌دلمه‌ای،گوشت‌چرخ‌کرده‌و‌پنیرپیتزا",
+      "price": 480000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 0
+    },
+    "پیتزا-مخلوط": {
+      "name": "پیتزا مخلوط",
+      "category": "پیتزا ها",
+      "desc": "",
+      "price": 440000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 1
+    },
+    "پیتزا-بیف": {
+      "name": "پیتزا بیف",
+      "category": "پیتزا ها",
+      "desc": "",
+      "price": 490000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 2
+    },
+    "پیتزا-پپرونی": {
+      "name": "پیتزا پپرونی",
+      "category": "پیتزا ها",
+      "desc": "",
+      "price": 420000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 3
+    },
+    "پیتزا-گوشت-و-قارچ": {
+      "name": "پیتزا گوشت و قارچ",
+      "category": "پیتزا ها",
+      "desc": "",
+      "price": 500000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 4
+    },
+    "پیتزا-مرغ-و-قارچ": {
+      "name": "پیتزا مرغ و قارچ",
+      "category": "پیتزا ها",
+      "desc": "",
+      "price": 480000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 5
+    },
+    "پیتزا-مکزیکی": {
+      "name": "پیتزا مکزیکی",
+      "category": "پیتزا ها",
+      "desc": "",
+      "price": 390000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 6
+    },
+    "کالزونه-گوشت": {
+      "name": "کالزونه گوشت",
+      "category": "پیتزا ها",
+      "desc": "",
+      "price": 470000,
+      "emoji": "🍽️",
+      "image": "",
+      "diameter": null,
+      "order": 7
+    }
+  },
   "settings": {
-    "categories": ["پیتزا", "نوشیدنی", "سیب‌زمینی", "دسر"]
+    "categories": [
+      "پیتزا ها",
+      "ساندویچ ها",
+      "سالاد ها",
+      "نوشیدنی"
+    ]
   }
 }
