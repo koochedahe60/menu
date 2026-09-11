@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#E8D9B5">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icons/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="کوچه دهه شصت">
+<title>کوچه دهه شصت | طعم قدیم</title>
+<meta name="description" content="کوچه دهه شصت — طعم اصیل قدیمی، همون مزه‌ی نوستالژیک. سفارش آنلاین و ارسال سریع.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="#" class="logo"><span class="mark site-logo-mark" id="site-logo-mark">ک</span> کوچه دهه شصت</a>
+    <nav class="nav-links">
+      <a href="#menu">منو</a>
+      <a href="#faq">سوالات</a>
+      <a href="admin.html">پنل</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#faq" class="btn btn-outline">راهنما</a>
+      <button class="menu-toggle" aria-label="باز کردن منو"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-nav">
+  <div class="mobile-nav-top">
+    <span class="logo"><span class="mark site-logo-mark">ک</span> کوچه دهه شصت</span>
+    <button class="close-mn" aria-label="بستن منو">✕</button>
+  </div>
+  <a href="#menu"><span class="mn-ic">🍕</span> منو</a>
+  <a href="#faq"><span class="mn-ic">؟</span> سوالات</a>
+  <a href="admin.html"><span class="mn-ic">⚙</span> پنل</a>
+</nav>
+
+<!-- ================= HERO SLOGAN ================= -->
+<section class="hero-slogan">
+  <div class="container">
+    <h1>طعمی که یادت نمی‌ره</h1>
+  </div>
+</section>
+
+<!-- ================= MENU ================= -->
+<section class="section" id="menu" style="padding-top:24px">
+  <div class="container">
+    <div class="section-head reveal">
+      <p>همون طعم قدیمی، همون کوچه‌ی خاطره‌انگیز — دست‌پخت با دستور همون سال‌ها.</p>
+    </div>
+    <div class="menu-tabs" data-menu-tabs></div>
+    <div class="menu-sections" data-menu-grid></div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="section alt" id="faq">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">سوالات متداول</span>
+      <h2>هر چیزی که باید بدانید</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item">
+        <summary>ارسال به کجاها انجام می‌شود؟</summary>
+        <p>در محدوده شهر، به‌صورت روزانه و سریع ارسال داریم. سفارش خود را ثبت کنید تا در سریع‌ترین زمان به دستتان برسد.</p>
+      </details>
+      <details class="faq-item">
+        <summary>دستور پخت همون قدیمیه؟</summary>
+        <p>بله، دقیقاً همون دستور و طعمی که نسل قبل با عشق درست می‌کرد — چیزی عوض نشده جز اینکه حالا آنلاین هم سفارش می‌گیریم.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="#" class="logo" style="color:#fff;margin-bottom:14px"><span class="mark site-logo-mark">ک</span> کوچه دهه شصت</a>
+        <p style="color:#cbbfae;font-size:.9rem;line-height:1.9;max-width:280px">طعم دست‌پخت قدیمی، همون حس نوستالژیک کوچه‌های دهه‌ی شصت.</p>
+      </div>
+      <div>
+        <h4>دسترسی سریع</h4>
+        <ul>
+          <li><a href="#menu">منو</a></li>
+          <li><a href="#faq">سوالات</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© کوچه دهه شصت — تمامی حقوق محفوظ است</span>
+      <span>ساخته‌شده با ❤ برای عاشقان پیتزا</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/ios-glass.js"></script>
+<script src="js/store.js"></script>
+<script src="js/products.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/main.js"></script>
+<script src="js/vpn-hint.js"></script>
+<script src="js/install-prompt.js"></script>
+<script>
+  if("serviceWorker" in navigator){
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("sw.js").catch(() => {});
+    });
+  }
+</script>
+</body>
+</html>
